@@ -22,7 +22,7 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Aplicativo web</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Pagina web</ToggleButton>
             :
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>Pagina web</ToggleButton>
           }
@@ -34,9 +34,9 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>Machine Learning</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>Machine Learning</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

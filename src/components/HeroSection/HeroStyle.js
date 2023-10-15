@@ -104,6 +104,11 @@ object-fit: cover;
 object-position: center;
 border: 5px solid ${({theme}) => theme.primary};
 
+&:hover{
+  transform: scale(1.1);
+  /* transform: rotate(45deg); */
+  /* transform: translate(20px); */
+}
 
 @media screen and (max-width: 960px) {
   max-height: 400px;
