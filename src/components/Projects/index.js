@@ -10,7 +10,7 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projectos</Title>
+        <Title>Proyectos</Title>
         <Desc>
         He trabajado en una amplia gama de proyectos. Desde aplicaciones web hasta aplicaciones de Android. Éstos son algunos de mis proyectos.
         </Desc>
