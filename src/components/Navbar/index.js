@@ -16,7 +16,7 @@ const Navbar = () => {
     const theme = useTheme();
     return <Nav>
         <NavContainer>
-            <NavLogo to="/">
+            <NavLogo to='/'>
                 <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
                 <DiUikit size="3rem" /> <Span>Portafolio</Span>
                 </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
         {
             open && (
             <MobileMenu open={open}>
-                <MobileMenuLinks href="#about" onClick={() => {
+                <MobileMenuLinks href='#about' onClick={() => {                    
                 setOpen(!open)
                 }}>Inicio</MobileMenuLinks>
 
