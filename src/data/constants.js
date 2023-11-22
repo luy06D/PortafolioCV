@@ -8,7 +8,7 @@ export const Bio = {
       "Soy una persona motivada y polivalente, siempre con ganas de afrontar nuevos retos. Con pasión por aprender; me dedico a ofrecer resultados de alta calidad; con una actitud positiva y una mentalidad de crecimiento, estoy listo para hacer una contribución significativa y lograr grandes cosas.",
     github: "https://github.com/luy06D",
     resume:
-      "https://drive.google.com/file/d/1yjrFMhRu2Q9gfAqMy9cDXsk8CVHg5j0H/view?usp=sharing",
+      "https://drive.google.com/file/d/1AXrakXOmoJ8dO51AUTpbqyEGvgho8OBj/view?usp=sharing",
     // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     whasap: "https://wa.me/51934651825?text=Hola",
     insta: "https://www.instagram.com/iam.luisdv/",
