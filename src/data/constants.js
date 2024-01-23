@@ -1,3 +1,8 @@
+import trespImg from '../components/img/img3p.png'
+import avicolaImg from '../components/img/avicolaImg.png'
+import web_tresp from '../components/img/web_3p.PNG'
+import tresRayaImg from '../components/img/3_enRaya.PNG'
+
 export const Bio = {
     name: "Luis David",
     roles: [
@@ -8,7 +13,7 @@ export const Bio = {
       "Soy una persona motivada y polivalente, siempre con ganas de afrontar nuevos retos. Con pasión por aprender; me dedico a ofrecer resultados de alta calidad; con una actitud positiva y una mentalidad de crecimiento, estoy listo para hacer una contribución significativa y lograr grandes cosas.",
     github: "https://github.com/luy06D",
     resume:
-      "https://drive.google.com/file/d/1AXrakXOmoJ8dO51AUTpbqyEGvgho8OBj/view?usp=sharing",
+      "https://drive.google.com/file/d/1qdsutuwA16AXpszwO8Y1QeBgK1KVXCiy/view?usp=sharing",
     // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     whasap: "https://wa.me/51934651825?text=Hola",
     insta: "https://www.instagram.com/iam.luisdv/",
@@ -123,7 +128,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         },
         {
           name: "GitHub",
@@ -139,7 +144,7 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://cdn.worldvectorlogo.com/logos/postman.svg",
         },
 
       ],
@@ -149,7 +154,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/D4E03AQHalNwbGRohdQ/profile-displayphoto-shrink_800_800/0/1683956301535?e=2147483647&v=beta&t=uAWFbCv3XBvlhjzsCdhiVkz4kfqnE3ur-CP3a3vkoXs",
+      img: "https://lh3.googleusercontent.com/p/AF1QipNVRCNUsFzvv8OQxLok-QdG4_neLX5W3CupVUY1=s680-w680-h510",
       role: "Practicante | Programador front-end",
       company: "VAMAS S.A.C",
       date: "Marz 2023 - Jun 2023",
@@ -166,7 +171,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://scontent.fpio4-1.fna.fbcdn.net/v/t39.30808-6/306080983_456568629844434_5189209682767279271_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGPWh5XPs0OMdPpaCDtp4-YpW1bFm59xOGlbVsWbn3E4ZkSLUx4LUpHL0OC6ASkeaFF3MBLaslU3-qOK_8uPSjZ&_nc_ohc=1ASpLtg8unAAX-PrUjW&_nc_ht=scontent.fpio4-1.fna&oh=00_AfCCXbB6MLD8XkKvg6ZAC1SZ4W6ZcsDNz-FizlipMzxnOA&oe=652BAC35",
+      img: trespImg,
       role: "Practicante | Programador full stack",
       company: "3P Ingenieria y Tecnologia ",
       date: "Jul 2023 - Present",
@@ -182,16 +187,36 @@ export const Bio = {
       ],
       doc: "",
     },
+    {
+      id: 1,
+      img: trespImg,
+      role: "Practicante | Programador full stack",
+      company: "3P Ingenieria y Tecnologia ",
+      date: "Oct 2023 - Dic 2023",
+      desc: "Estuve realizando un proyecto de innovación en la empresa 3P para culminar mis estudios, en este caso mi proyecto de innovación fue desarrollar un sistema de Gestión de Servicios y venta de equipos",
+      skills: [
+        "PHP",
+        "Boostrap",
+        "AJAX",
+        "HTML",
+        "CSS",
+        "Mysql",
+        "JavaScript",
+        "Librerias",
+        
+      ],
+      doc: "",
+    },
   ];
   
   export const education = [
     {
       id: 0,
       img: "https://static.mercadonegro.pe/wp-content/uploads/2017/10/27160609/22815135_916150281870460_820360796721820140_n.jpg",
-      school: "Intituto SENATI sede-Chincha",
+      school: "Instituto SENATI sede-Chincha",
       date: "Marz 2020 - Oct 2023",
       // grade: "8.71 CGPA",
-      desc: "Actualmente  estoy terminando mi carrera de tecnico en Ingenieria de Software en el Intituto de SENATI. He completado ya 5 semestres de mi carrere. Este 6to semestre estoy llevando los cursos de Dessarrollo de APPS moviles II, Cloud Computing, Inteligencia de Negocios y Dataware, y Redes Neuronales.",
+      desc: "Actualmente soy egresado de la carrera tecnica en Ingenieria de Software del Instituto SENATI. He completado ya 6 semestres de mi carrera en la cual lleve cursos de Desarrollo de APPS moviles II, Cloud Computing, Inteligencia de Negocios y Dataware, y Redes Neuronales.",
       degree: "Profesional Tecnico en Ingeniería de Software con I.A",
     },
 
@@ -202,11 +227,11 @@ export const Bio = {
     {
       id: 0,
       title: "Sistema de Gestion de Servicios",
-      date: "Jul 2023 - Present",
+      date: "Jul 2023 - Dic 2023",
       description:
         "Actualmente desarrollando un sistema web para la gestion de servicios y ventas de equipos",
       image:
-        "https://drive.google.com/uc?export=download&id=1DQ9vG-um8q1pYyOlKSfotLMDqJb3C_26",
+        web_tresp,
       tags: ["JavaScript", "Ajax", "PHP", "Mysql", "Boostrap"],
       category: "web app",
       github: "https://github.com/rishavchanda/Podstream",
@@ -233,7 +258,7 @@ export const Bio = {
       description:
         "Diseñe y desarrolle un sistema para venta y almacen de insumos de una avicola",
       image:
-        "https://drive.google.com/uc?export=download&id=1Q6xiK4gin9cYu2HQyB3ZbHTt-jWsNtwp",
+        avicolaImg,
       tags: [
         
         "JavaScript",
@@ -244,6 +269,27 @@ export const Bio = {
         
       ],
       category: "web app",
+      github: "https://github.com/rishavchanda/Project-Management-App",
+      webapp: "https://vexa-app.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "TRES EN RAYA",
+      date: "Ene 22/2024 - Ene 23/2024",
+      description:
+        "Se recreo un juego clasico llamado tres en raya con React",
+      image:
+        tresRayaImg,
+      tags: [
+        
+        "JavaScript",
+        "React",
+        "HTML5",
+        "CSS3",
+        "GamePlay",
+        
+      ],
+      category: "web game",
       github: "https://github.com/rishavchanda/Project-Management-App",
       webapp: "https://vexa-app.netlify.app/",
     },

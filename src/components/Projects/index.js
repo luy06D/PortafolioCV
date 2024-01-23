@@ -3,6 +3,7 @@ import { useState } from 'react'
 import ProjectCard from '../Cards/ProjectCard'
 import { projects } from '../../data/constants' 
 import {Container, Wrapper, Title, Desc, ToggleButtonGroup, ToggleButton, Divider, CardContainer} from './ProjectsStyle'
+import { Button } from '@mui/material'
 
 
 const Projects = ({openModal,setOpenModal}) => {
@@ -11,8 +12,9 @@ const Projects = ({openModal,setOpenModal}) => {
     <Container id="projects">
       <Wrapper>
         <Title>Proyectos</Title>
-        <Desc>
-        He trabajado en una amplia gama de proyectos. Desde aplicaciones web hasta aplicaciones de Android. Éstos son algunos de mis proyectos.
+        <Desc>              
+          He participado en algunos proyectos para ciertas empresas y también he llevado a cabo iniciativas personales, 
+          los cuales se encuentran detallados a continuación. A continuación, presento algunos de mis proyectos.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -22,22 +24,29 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Pagina web</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Aplicación web</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Pagina web</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Aplicación web</ToggleButton>
           }
           <Divider />
+
+          {toggle === 'web game' ?
+            <ToggleButton active value="web game" onClick={() => setToggle('web game')}>Juegos Web</ToggleButton>
+            :
+            <ToggleButton value="web game" onClick={() => setToggle('web game')}>Juegos Web</ToggleButton>
+          }
+          <Divider />
+          
           {toggle === 'android app' ?
             <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Android APP'S</ToggleButton>
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>Android APP'S</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'machine learning' ?
+          }          
+          {/* {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>Machine Learning</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>Machine Learning</ToggleButton>
-          }
+          } */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
@@ -47,8 +56,8 @@ const Projects = ({openModal,setOpenModal}) => {
           {projects
             .filter((item) => item.category == toggle)
             .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
-            ))}
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>              
+            ))}            
         </CardContainer>
       </Wrapper>
     </Container>

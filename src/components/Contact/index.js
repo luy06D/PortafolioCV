@@ -1,5 +1,5 @@
 
-import { Snackbar } from '@mui/material';
+import { Alert, Snackbar } from '@mui/material';
 import React from 'react';
 import styled from 'styled-components';
 import { useRef } from 'react';
@@ -131,6 +131,7 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
 
 
+
 const Contact = () => {
 
   const [open, setOpen] = React.useState(false);
@@ -147,6 +148,7 @@ const Contact = () => {
     });
   }
 
+
   return (
     <Container id='contact'>
         <Wrapper>
@@ -157,15 +159,16 @@ const Contact = () => {
                 <ContactInput placeholder="Ingresa tu correo" autoComplete='off' name='user_email'/>
                 <ContactInput placeholder="Ingresa tu nombre" autoComplete='off' name='user_name'/>                
                 <ContactInputMessage placeholder="Mensaje" autoComplete='off' rows="4" name="message" />
-                <ContactButton type="submit" value="Enviar" />
+                <ContactButton type="submit" value="Enviar" />                
             </ContactForm>
             <Snackbar
             open={open}
             autoHideDuration={6000}
-            onClose={()=>setOpen(false)}
-            message="Mensaje enviado correctamente"
-            severity="success"
-            />
+            onClose={()=>setOpen(false)}>
+              <Alert onClose={()=>setOpen(false)} severity='success' sx={{width: '100%'}}>
+                Mensaje enviado correctamente
+              </Alert>
+            </Snackbar>
         </Wrapper>
     </Container>
   )
