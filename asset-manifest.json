@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/PortafolioCV/static/css/main.bf538fe7.css",
-    "main.js": "/PortafolioCV/static/js/main.054c7ff5.js",
+    "main.js": "/PortafolioCV/static/js/main.433852c5.js",
     "static/media/foto2.jpg": "/PortafolioCV/static/media/foto2.a16b11d0778b95614d01.jpg",
+    "static/media/web_3p.PNG": "/PortafolioCV/static/media/web_3p.aa01106dd5b3ef99aea1.PNG",
+    "static/media/avicolaImg.png": "/PortafolioCV/static/media/avicolaImg.0b43830388e81c038b26.png",
+    "static/media/img3p.png": "/PortafolioCV/static/media/img3p.74e5bf49463a1458515a.png",
+    "static/media/3_enRaya.PNG": "/PortafolioCV/static/media/3_enRaya.d6cb79f8faf0a5724aa1.PNG",
     "index.html": "/PortafolioCV/index.html",
     "main.bf538fe7.css.map": "/PortafolioCV/static/css/main.bf538fe7.css.map",
-    "main.054c7ff5.js.map": "/PortafolioCV/static/js/main.054c7ff5.js.map"
+    "main.433852c5.js.map": "/PortafolioCV/static/js/main.433852c5.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.054c7ff5.js"
+    "static/js/main.433852c5.js"
   ]
 }
