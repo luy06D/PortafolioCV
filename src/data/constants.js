@@ -2,6 +2,7 @@ import trespImg from '../components/img/img3p.png'
 import avicolaImg from '../components/img/avicolaImg.png'
 import web_tresp from '../components/img/web_3p.PNG'
 import tresRayaImg from '../components/img/3_enRaya.PNG'
+import vamasImg from '../components/img/vamas.png'
 
 export const Bio = {
     name: "Luis David",
@@ -13,7 +14,7 @@ export const Bio = {
       "Soy una persona motivada y polivalente, siempre con ganas de afrontar nuevos retos. Con pasión por aprender; me dedico a ofrecer resultados de alta calidad; con una actitud positiva y una mentalidad de crecimiento, estoy listo para hacer una contribución significativa y lograr grandes cosas.",
     github: "https://github.com/luy06D",
     resume:
-      "https://drive.google.com/file/d/1qdsutuwA16AXpszwO8Y1QeBgK1KVXCiy/view?usp=sharing",
+      "https://drive.google.com/file/d/1yiCURBzF91vNvGyhlYI9wmceasJHs4dB/view?usp=sharing",
     // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     whasap: "https://wa.me/51934651825?text=Hola",
     insta: "https://www.instagram.com/iam.luisdv/",
@@ -154,7 +155,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://lh3.googleusercontent.com/p/AF1QipNVRCNUsFzvv8OQxLok-QdG4_neLX5W3CupVUY1=s680-w680-h510",
+      img: vamasImg,
       role: "Practicante | Programador front-end",
       company: "VAMAS S.A.C",
       date: "Marz 2023 - Jun 2023",
@@ -175,7 +176,7 @@ export const Bio = {
       role: "Practicante | Programador full stack",
       company: "3P Ingenieria y Tecnologia ",
       date: "Jul 2023 - Present",
-      desc: "En mi periodo como practicante actual en la empresa 3P , participe en la creación de un sistema web para una empresa avicola , que se encuentra entre los valiosos clientes de la empresa, mi rol como practicante me permitió contribuir en el proceso de analisis y desarrollo del sofware.",
+      desc: "En mi periodo como practicante en la empresa 3P , participe en la creación de un sistema web para una empresa avicola , que se encuentra entre los valiosos clientes de la empresa, mi rol como practicante me permitió contribuir en el proceso de analisis y desarrollo del sofware.",
       skills: [
         "PHP",
         "Boostrap",
@@ -217,7 +218,16 @@ export const Bio = {
       date: "Marz 2020 - Oct 2023",
       // grade: "8.71 CGPA",
       desc: "Actualmente soy egresado de la carrera tecnica en Ingenieria de Software del Instituto SENATI. He completado ya 6 semestres de mi carrera en la cual lleve cursos de Desarrollo de APPS moviles II, Cloud Computing, Inteligencia de Negocios y Dataware, y Redes Neuronales.",
-      degree: "Profesional Tecnico en Ingeniería de Software con I.A",
+      degree: "Profesional Tecnico en Desarrollo de Software con I.A",
+    },
+    {
+      id: 1,
+      img: "https://cdn.podimo.com/images/20f436b3-769c-426f-b0bd-08848f505163_400x400.png",
+      school: "Universidad Tecnologica del Perú",
+      date: "Marz 2024 - Present",
+      // grade: "Ciclo I",
+      desc: "Actualmente estoy estudiando en la UTP (Universidad Tecnológica del Perú) con el objetivo de complementar mi carrera técnica y convertirme en Ingeniero de Software.",
+      degree: "Profesional en Ingeniería de Software",
     },
 
   ];
